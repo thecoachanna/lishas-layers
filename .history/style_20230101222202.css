@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Oswald:wght@700&family=Outfit&family=Poiret+One&display=swap')
+@import url('')
 
 * {
     margin: 0;
@@ -39,10 +39,4 @@ p {
     padding: 40px 80px;
 }
 
-.section-m1 {
-    margin: 40px 0;
-}
-
-body {
-    width: 100%
-}
+.section
