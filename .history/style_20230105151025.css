@@ -105,15 +105,3 @@ body {
     align-items: flex-start;
     justify-content: center;
 }
-
-#hero h4 {
-    padding-bottom: 15px;
-}
-
-#hero h1 {
-    color: #088178;
-}
-
-#hero button {
-    background-image: url("");
-}
