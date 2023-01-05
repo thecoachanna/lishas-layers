@@ -60,11 +60,6 @@ body {
     bottom: 0;
 }
 
-#header .logo {
-    height: 125px;
-    width: 125px;
-}
-
 #navbar {
     display: flex;
     align-items: center;
@@ -136,5 +131,4 @@ body {
 }
 
 /* Colors */
-/* #88a9ab */
-/* b8ecf2 */
+/* #88a */
