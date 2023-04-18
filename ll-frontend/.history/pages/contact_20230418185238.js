@@ -124,6 +124,7 @@ export default function ContactForm() {
             id="design2"
             name="design2"></input>
           
+          
           <textarea
             placeholder="Additional Comments:"
             id="comments"

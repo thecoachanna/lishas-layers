@@ -14,7 +14,6 @@ export default function ContactForm() {
         servings: event.target.servings.value,
         date: event.target.date.value,
         location: event.target.location.value,
-        comments: event.target.comments.value,
       }
   
       // Send the data to the server in JSON format.
@@ -123,6 +122,7 @@ export default function ContactForm() {
             type="file"
             id="design2"
             name="design2"></input>
+          
           
           <textarea
             placeholder="Additional Comments:"

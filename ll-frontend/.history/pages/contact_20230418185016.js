@@ -8,13 +8,8 @@ export default function ContactForm() {
       const data = {
         first: event.target.first.value,
         last: event.target.last.value,
-        email: event.target.email.value,
-        phone: event.target.phone.value,
-        event: event.target.event.value,
-        servings: event.target.servings.value,
-        date: event.target.date.value,
-        location: event.target.location.value,
-        comments: event.target.comments.value,
+        last: event.target.last.value,
+        last: event.target.last.value,
       }
   
       // Send the data to the server in JSON format.
@@ -81,12 +76,12 @@ export default function ContactForm() {
             name="phone"
             required />
 
-          <label htmlFor="event"></label>
+          <label htmlFor="event-type"></label>
           <input
             placeholder="Event Type"
             type="text"
-            id="event"
-            name="event"
+            id="event-type"
+            name="event-type"
             required />
 
           <label htmlFor="servings"></label>
@@ -123,6 +118,7 @@ export default function ContactForm() {
             type="file"
             id="design2"
             name="design2"></input>
+          
           
           <textarea
             placeholder="Additional Comments:"
