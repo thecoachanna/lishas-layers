@@ -38,7 +38,7 @@ export default function ContactForm() {
     }
     return (
       // We pass the event to the handleSubmit() function on submit.
-      <div>
+      <>
         <h1>Custom Inquiry Form</h1>
         
         <form onSubmit={handleSubmit}>
@@ -128,6 +128,6 @@ export default function ContactForm() {
   
           <button type="submit">Submit</button>
         </form>
-        </div>
+        </>
     )
   }

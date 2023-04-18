@@ -38,53 +38,49 @@ export default function ContactForm() {
     }
     return (
       // We pass the event to the handleSubmit() function on submit.
-      <div>
+      <>
         <h1>Custom Inquiry Form</h1>
         
         <form onSubmit={handleSubmit}>
-          <p>Looking to order a custom cake? Please complete this form and I will reach out to you within 1-2 business days.</p>
+          <p>Looking to order a custom cake? Please complete this form and someone from our team will reach out to you within 1-2 business days.</p>
           <label htmlFor="first"></label>
           <input
-            placeholder="First Name"
             type="text"
             id="first"
             name="first"
             required />
   
-          <label htmlFor="last"></label>
+          <label htmlFor="last">Last Name</label>
           <input
-            placeholder="Last Name"
             type="text"
             id="last"
             name="last"
             required />
 
-          <label htmlFor="email"></label>
+          <label htmlFor="email">Email Address</label>
           <input
-            placeholder="Email"
             type="email"
             id="email"
             name="email"
             required />
 
-          <label htmlFor="phone"></label>
+          <label htmlFor="phone">Phone Number</label>
           <input
-            placeholder="Phone Number"
+            type="tel"
             id="phone"
             name="phone"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
             required />
 
-          <label htmlFor="event-type"></label>
+          <label htmlFor="event-type">Event Type</label>
           <input
-            placeholder="Event Type"
             type="text"
             id="event-type"
             name="event-type"
             required />
 
-          <label htmlFor="servings"></label>
+          <label htmlFor="servings">Number of Servings</label>
           <input
-            placeholder="Number of Servings"
             type="number"
             id="servings"
             name="servings"
@@ -97,21 +93,20 @@ export default function ContactForm() {
             name="date"
             required />
 
-          <label htmlFor="location"></label>
+          <label htmlFor="location">Event Location</label>
           <input
-            placeholder="Event Location"
             type="location"
             id="location"
             name="location" />
 
           <p>Please upload any images you have in mind for the design.</p>
-          <label for="design1"></label>
+          <label for="design1">Select a file:</label>
           <input
             type="file"
             id="design1"
             name="design1"></input>
           
-          <label for="design2"></label>
+          <label for="design2">Select a file:</label>
           <input
             type="file"
             id="design2"
@@ -128,6 +123,6 @@ export default function ContactForm() {
   
           <button type="submit">Submit</button>
         </form>
-        </div>
+        </>
     )
   }

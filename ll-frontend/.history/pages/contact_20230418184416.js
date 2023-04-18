@@ -38,11 +38,11 @@ export default function ContactForm() {
     }
     return (
       // We pass the event to the handleSubmit() function on submit.
-      <div>
+      <>
         <h1>Custom Inquiry Form</h1>
         
         <form onSubmit={handleSubmit}>
-          <p>Looking to order a custom cake? Please complete this form and I will reach out to you within 1-2 business days.</p>
+          <p>Looking to order a custom cake? Please complete this form and someone from our team will reach out to you within 1-2 business days.</p>
           <label htmlFor="first"></label>
           <input
             placeholder="First Name"
@@ -128,6 +128,6 @@ export default function ContactForm() {
   
           <button type="submit">Submit</button>
         </form>
-        </div>
+        </>
     )
   }

@@ -128,6 +128,6 @@ export default function ContactForm() {
   
           <button type="submit">Submit</button>
         </form>
-        </div>
+        </>
     )
   }
