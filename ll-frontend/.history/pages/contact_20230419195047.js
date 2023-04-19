@@ -53,7 +53,7 @@ export default function ContactForm() {
           type="text"
           id="first"
           name="first"
-          className="input input-bordered input-primary w-full max-w-xs"
+          className="input input-bordered input-primary w-full max-w-xs place-content-center"
           required
         />
         <label htmlFor="last"></label>
@@ -62,7 +62,7 @@ export default function ContactForm() {
           type="text"
           id="last"
           name="last"
-          className="input input-bordered input-primary w-full max-w-xs"
+          className="input input-bordered input-primary w-full max-w-xs place-content-center"
           required
         />
 

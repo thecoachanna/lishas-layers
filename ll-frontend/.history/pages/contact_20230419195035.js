@@ -53,7 +53,7 @@ export default function ContactForm() {
           type="text"
           id="first"
           name="first"
-          className="input input-bordered input-primary w-full max-w-xs"
+          className="input input-bordered input-primary w-full max-w-xs "
           required
         />
         <label htmlFor="last"></label>
