@@ -40,12 +40,11 @@ export default function ContactForm() {
   return (
     // We pass the event to the handleSubmit() function on submit.
     <div>
-      <h1 className="text-gray-600 text-4xl mb-3">Custom Inquiry Form</h1>
-      
-      <h3 className="text-gray-600 text-xl italic mb-3">
-      Looking to order custom items? Please complete this form and I will
+      <h1>Custom Inquiry Form</h1>
+      <p>
+        Looking to order a custom cake? Please complete this form and I will
         reach out to you within 1-2 business days.
-        </h3>
+      </p>
 
       <form onSubmit={handleSubmit} class="w-full max-w-lg">
         <div className="flex flex-wrap -mx-3 mb-6">
@@ -126,19 +125,18 @@ export default function ContactForm() {
           </div>
         </div>
 
-        <div className="flex flex-wrap -mx-3 mb-5">
+        <div className="flex flex-wrap -mx-3 mb-6">
           <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
             <label
+              className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
               htmlFor="date"
             >
               
             </label>
             <input
-              
-              className="input input-bordered input-primary w-full max-w-xs"
+              className="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
               id="date"
               type="text"
-              name="date"
               placeholder="Event Date"
             ></input>
           </div>

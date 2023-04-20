@@ -43,7 +43,7 @@ export default function ContactForm() {
       <h1 className="text-gray-600 text-4xl mb-3">Custom Inquiry Form</h1>
       
       <h3 className="text-gray-600 text-xl italic mb-3">
-      Looking to order custom items? Please complete this form and I will
+      Looking to order custome baked goods? Please complete this form and I will
         reach out to you within 1-2 business days.
         </h3>
 

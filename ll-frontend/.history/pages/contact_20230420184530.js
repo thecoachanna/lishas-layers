@@ -40,16 +40,30 @@ export default function ContactForm() {
   return (
     // We pass the event to the handleSubmit() function on submit.
     <div>
-      <h1 className="text-gray-600 text-4xl mb-3">Custom Inquiry Form</h1>
-      
-      <h3 className="text-gray-600 text-xl italic mb-3">
-      Looking to order custom items? Please complete this form and I will
-        reach out to you within 1-2 business days.
-        </h3>
+      <h1>Custom Inquiry Form</h1>
 
-      <form onSubmit={handleSubmit} class="w-full max-w-lg">
-        <div className="flex flex-wrap -mx-3 mb-6">
-          <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+      <form onSubmit={handleSubmit}>
+        <p>
+          Looking to order a custom cake? Please complete this form and I will
+          reach out to you within 1-2 business days.
+        </p>
+
+        <label htmlFor="date">Event Date</label>
+        <input type="date" id="date" name="date" required />
+
+        
+
+        <textarea
+          placeholder="Additional Comments:"
+          id="comments"
+          name="comments"
+          className="textarea textarea-primary"
+        />
+      </form>
+
+      <form class="w-full max-w-lg">
+        <div class="flex flex-wrap -mx-3 mb-6">
+          <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
             <label className="font-semibold pb-2 block" htmlFor="first"></label>
             <input
               required
@@ -61,7 +75,7 @@ export default function ContactForm() {
             />
           </div>
 
-          <div className="w-full md:w-1/2 px-3">
+          <div class="w-full md:w-1/2 px-3">
             <label className="font-semibold pb-2 block" htmlFor="last"></label>
             <input
               required
@@ -74,8 +88,8 @@ export default function ContactForm() {
           </div>
         </div>
 
-        <div className="flex flex-wrap -mx-3 mb-6">
-          <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+        <div class="flex flex-wrap -mx-3 mb-6">
+          <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
             <label htmlFor="email"></label>
             <input
               required
@@ -87,7 +101,7 @@ export default function ContactForm() {
             />
           </div>
 
-          <div className="w-full md:w-1/2 px-3">
+          <div class="w-full md:w-1/2 px-3">
             <label htmlFor="phone"></label>
             <input
               required
@@ -100,8 +114,8 @@ export default function ContactForm() {
           </div>
         </div>
 
-        <div className="flex flex-wrap -mx-3 mb-6">
-          <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+        <div class="flex flex-wrap -mx-3 mb-6">
+          <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
             <label htmlFor="event"></label>
             <input
               required
@@ -113,7 +127,7 @@ export default function ContactForm() {
             ></input>
           </div>
 
-          <div className="w-full md:w-1/2 px-3">
+          <div class="w-full md:w-1/2 px-3">
             <label htmlFor="servings"></label>
             <input
               required
@@ -126,24 +140,23 @@ export default function ContactForm() {
           </div>
         </div>
 
-        <div className="flex flex-wrap -mx-3 mb-5">
-          <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+        <div class="flex flex-wrap -mx-3 mb-6">
+          <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
             <label
-              htmlFor="date"
+              class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+              for="grid-first-name"
             >
-              
+              Event Date
             </label>
             <input
-              
-              className="input input-bordered input-primary w-full max-w-xs"
-              id="date"
+              class="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+              id="grid-first-name"
               type="text"
-              name="date"
-              placeholder="Event Date"
+              placeholder=""
             ></input>
           </div>
 
-          <div className="w-full md:w-1/2 px-3">
+          <div class="w-full md:w-1/2 px-3">
             <label htmlFor="location"></label>
             <input
               required
@@ -156,34 +169,34 @@ export default function ContactForm() {
           </div>
         </div>
 
-        <p className="text-gray-600 text-s italic mb-3">
+        <p class="text-gray-600 text-s italic mb-3">
           Please upload any images you have in mind for the design.
         </p>
-        <div className="flex flex-wrap -mx-3 mb-2">
-          <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+        <div class="flex flex-wrap -mx-3 mb-2">
+          <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
             <label htmlFor="design2"></label>
             <input
               type="file"
               id="design2"
               name="design2"
               className="file-input file-input-bordered file-input-primary w-full max-w-xs"
-            />
+            ></input>
           </div>
-
-          <div className="w-full md:w-1/2 px-3 mb-3 md:mb-0">
+          <div class="w-full md:w-1/2 px-3 mb-8 md:mb-0">
             <label htmlFor="design2"></label>
             <input
               type="file"
               id="design2"
               name="design2"
               className="file-input file-input-bordered file-input-primary w-full max-w-xs"
-            />
+            ></input>
           </div>
-
-          <div className="w-full px-3">
-            <label htmlFor="comments"></label>
+          <div class="w-full px-3">
+            <label
+              htmlFor="comments"
+            ></label>
             <textarea
-              className="w-full py-3 px-4 mt-6 leading-tight focus:outline-none textarea textarea-primary"
+              className="w-full py-3 px-4 mb-3 leading-tight focus:outline-none textarea textarea-primary"
               id="comments"
               type="text"
               name="comments"
@@ -191,8 +204,7 @@ export default function ContactForm() {
             ></textarea>
           </div>
         </div>
-
-        <button type="submit" className="w-full btn btn-primary">
+        <button type="submit" className="btn btn-primary">
           Submit
         </button>
       </form>
