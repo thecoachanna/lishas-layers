@@ -41,11 +41,11 @@ export default function ContactForm() {
     // We pass the event to the handleSubmit() function on submit.
     <div>
       <h1 className="text-gray-600 text-4xl mb-3 flex items-center justify-center">
-        Inquiry Form
+        Custom Inquiry Form
       </h1>
 
       <h3 className="text-gray-600 text-xl italic mb-3 flex items-center justify-center">
-        Looking to order a custom cake? Please complete this form and I will
+        Looking to order a custom items? Please complete this form and I will
         reach out to you within 1-2 business days.
       </h3>
 

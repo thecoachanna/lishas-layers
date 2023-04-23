@@ -21,7 +21,7 @@ export default function Home() {
                 I'm a colorful, creative, fun spirit who loves to make people's
                 special moments come to life through my cake art.
               </p>
-              <button className="btn btn-primary">Custom Cake Inquiries</button>
+              <button className="btn btn-primary">Cake Inquiries</button>
             </div>
           </div>
         </div>

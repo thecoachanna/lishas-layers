@@ -1,9 +1,11 @@
 import Image from "next/image";
+import { Inter } from "next/font/google";
 
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <main>
+    <main className="flex min-h-screen flex-col items-center justify-between p-24">
     
        
         <div className="hero min-h-screen bg-base-200">
@@ -21,7 +23,7 @@ export default function Home() {
                 I'm a colorful, creative, fun spirit who loves to make people's
                 special moments come to life through my cake art.
               </p>
-              <button className="btn btn-primary">Custom Cake Inquiries</button>
+              <button className="btn btn-primary">Cake Inquiries</button>
             </div>
           </div>
         </div>
