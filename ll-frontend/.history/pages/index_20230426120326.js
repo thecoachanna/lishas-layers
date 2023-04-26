@@ -30,7 +30,7 @@ export default function Home() {
                 <li className="text-1xl">Meijer</li>
               </ul>
             </p>
-            <Link href={'/contact'}>
+            <Link href={}>
               <button className="btn btn-primary">Custom Cake Inquiries</button>
             </Link>
             </div>

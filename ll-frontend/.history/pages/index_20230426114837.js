@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link"
 
 
 export default function Home() {
@@ -18,21 +17,18 @@ export default function Home() {
             />
             <div>
               <h1 className="text-5xl font-bold">Hi, I'm Lisha!</h1>
-              <p className="py-6 text-2xl">
+              <p className="py-6">
                 I'm a colorful, creative, fun spirit who loves to make people's
               special moments come to life through my cake art.
               
-              <p className="py-6">
-                I have been baking and decorating cakes for over a year and have experience in working in the bakeries of:</p>
+              <p>I have been baking and decorating cakes for over a year and have experience in working in the bakeries of:</p>
               <ul>
-                <li className="text-1xl">Meijer</li>
-                <li className="text-1xl">Meijer</li>
-                <li className="text-1xl">Meijer</li>
+                <li>Meijer</li>
+                <li>Meijer</li>
+                <li>Meijer</li>
               </ul>
-            </p>
-            <Link href={'/contact'}>
+              </p>
               <button className="btn btn-primary">Custom Cake Inquiries</button>
-            </Link>
             </div>
           </div>
         </div>

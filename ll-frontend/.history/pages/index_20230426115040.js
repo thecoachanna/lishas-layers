@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link"
 
 
 export default function Home() {
@@ -27,12 +26,10 @@ export default function Home() {
               <ul>
                 <li className="text-1xl">Meijer</li>
                 <li className="text-1xl">Meijer</li>
-                <li className="text-1xl">Meijer</li>
+                <li>Meijer</li>
               </ul>
-            </p>
-            <Link href={'/contact'}>
+              </p>
               <button className="btn btn-primary">Custom Cake Inquiries</button>
-            </Link>
             </div>
           </div>
         </div>
