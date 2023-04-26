@@ -1,5 +1,4 @@
-import Link from "next/link";
-import Image from "next/image"
+import Link from "next/link"
 
 export default function NavBar() {
   return (
@@ -26,12 +25,9 @@ export default function NavBar() {
             tabIndex={0}
             className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
           >
-            <li>
-              <Link href={"/"}>Home</Link>
-            </li>
-
-            <li>
-              <Link href={"/about"}>About</Link>
+            <Link href={"/"}>Home</Link>
+                      <li>
+              <a>About</a>
             </li>
             <li tabIndex={0}>
               <a className="justify-between">
@@ -51,29 +47,19 @@ export default function NavBar() {
                   <a>Gallery</a>
                 </li>
                 <li>
-                <Link href={"/contact"}>Inquiry Form</Link>
+                  <a>Inquiry Form</a>
                 </li>
               </ul>
             </li>
+           
           </ul>
         </div>
-              <Link href={"/"}>
-              <Image
-              src="/images/logo.png"
-              alt="Picture of Lisha Nettles"
-              width={100}
-              height={100}
-              className="  "
-            />
-        </Link>
-              
-          </div>
-         
-          <div className="navbar-center hidden lg:flex ">
-          
+        <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+      </div>
+      <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-          <Link href={"/"}>Home</Link>
+            <Link href={"/"}>Home</Link>
           </li>
           <li>
             <Link href={"/about"}>About</Link>
@@ -96,15 +82,14 @@ export default function NavBar() {
                 <a>Gallery</a>
               </li>
               <li>
-                <Link href={"/contact"}>Inquiry Form</Link>
+                <a>Inquiry Form</a>
               </li>
             </ul>
           </li>
         </ul>
       </div>
-          <div className="navbar-end">
-              <Link href={"/contact"} className="btn">Contact Me</Link>
-       
+      <div className="navbar-end">
+        <a className="btn">Contact Me</a>
       </div>
     </div>
   );

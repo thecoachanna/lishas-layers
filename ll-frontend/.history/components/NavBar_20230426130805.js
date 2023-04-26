@@ -57,7 +57,9 @@ export default function NavBar() {
             </li>
           </ul>
         </div>
-              <Link href={"/"}>
+              <a className="btn btn-ghost normal-case text-xl">
+                  
+              </a>
               <Image
               src="/images/logo.png"
               alt="Picture of Lisha Nettles"
@@ -65,15 +67,13 @@ export default function NavBar() {
               height={100}
               className="  "
             />
-        </Link>
-              
           </div>
          
           <div className="navbar-center hidden lg:flex ">
           
         <ul className="menu menu-horizontal px-1">
           <li>
-          <Link href={"/"}>Home</Link>
+            <Link href={"/"}>Home</Link>
           </li>
           <li>
             <Link href={"/about"}>About</Link>
@@ -102,9 +102,8 @@ export default function NavBar() {
           </li>
         </ul>
       </div>
-          <div className="navbar-end">
-              <Link href={"/contact"} className="btn">Contact Me</Link>
-       
+      <div className="navbar-end">
+        <a className="btn">Contact Me</a>
       </div>
     </div>
   );

@@ -103,8 +103,8 @@ export default function NavBar() {
         </ul>
       </div>
           <div className="navbar-end">
-              <Link href={"/contact"} className="btn">Contact Me</Link>
-       
+              <Link href={"/contact" } className="btn">Contact Me</Link>
+        <a className="btn">Contact Me</a>
       </div>
     </div>
   );
