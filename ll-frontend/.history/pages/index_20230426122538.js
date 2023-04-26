@@ -6,7 +6,7 @@ import NavBar from "../components/NavBar"
 export default function Home() {
   return (
     <main>
-    <NavBar />
+    
        
         <div className="hero min-h-screen bg-base-200">
           <div className="hero-content flex-col lg:flex-row-reverse">
@@ -22,15 +22,15 @@ export default function Home() {
               <p className="py-6 text-2xl">
                 I'm a colorful, creative, fun spirit who loves to make people's
               special moments come to life through my cake art.
-              </p>
-              <p className="py-6 text-2xl">
+              
+              <p className="py-6">
                 I have been baking and decorating cakes for over a year and have experience in working in the bakeries of:</p>
-              <ul className="py-6 text-2xl">
+              <ul>
                 <li className="text-1xl">Meijer</li>
                 <li className="text-1xl">Meijer</li>
                 <li className="text-1xl">Meijer</li>
               </ul>
-          
+            </p>
             <Link href={'/contact'}>
               <button className="btn btn-primary">Custom Cake Inquiries</button>
             </Link>

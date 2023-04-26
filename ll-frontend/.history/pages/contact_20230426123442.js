@@ -41,8 +41,7 @@ export default function ContactForm() {
   };
   return (
     // We pass the event to the handleSubmit() function on submit.
-    <>
-    <NavBar />
+    
     <div>
 
       <h1 className="text-gray-600 text-4xl mb-3 flex items-center justify-center">
@@ -206,7 +205,6 @@ export default function ContactForm() {
           </button>
         </form>
       </div>
-      </div>
-      </>
+    </div>
   );
 }

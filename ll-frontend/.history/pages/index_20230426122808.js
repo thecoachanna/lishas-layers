@@ -25,7 +25,7 @@ export default function Home() {
               </p>
               <p className="py-6 text-2xl">
                 I have been baking and decorating cakes for over a year and have experience in working in the bakeries of:</p>
-              <ul className="py-6 text-2xl">
+              <ul className="py-6 text-1xl">
                 <li className="text-1xl">Meijer</li>
                 <li className="text-1xl">Meijer</li>
                 <li className="text-1xl">Meijer</li>

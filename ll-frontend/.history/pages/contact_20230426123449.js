@@ -41,7 +41,6 @@ export default function ContactForm() {
   };
   return (
     // We pass the event to the handleSubmit() function on submit.
-    <>
     <NavBar />
     <div>
 
@@ -206,7 +205,6 @@ export default function ContactForm() {
           </button>
         </form>
       </div>
-      </div>
-      </>
+    </div>
   );
 }

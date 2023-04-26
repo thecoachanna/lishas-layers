@@ -206,7 +206,6 @@ export default function ContactForm() {
           </button>
         </form>
       </div>
-      </div>
-      </>
+    </div>
   );
 }
