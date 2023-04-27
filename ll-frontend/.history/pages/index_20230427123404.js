@@ -37,6 +37,7 @@ export default function Home() {
             </Link>
             </div>
         </div>
+        
         </div>
         <Gallery />
     </main>

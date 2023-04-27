@@ -36,9 +36,9 @@ export default function Home() {
               <button className="btn btn-primary">Custom Cake Inquiries</button>
             </Link>
             </div>
+          </div>
         </div>
-        </div>
-        <Gallery />
+     
     </main>
   );
 }
