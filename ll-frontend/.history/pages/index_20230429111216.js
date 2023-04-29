@@ -25,11 +25,11 @@ export default function Home() {
               special moments come to life through my cake art.
               </p>
               <p className="py-6 text-2xl">
-                I am a current student in Oakland Community College Culinary Arts program and have been gaining industry experience over the past year working in the bakeries of:</p>
+                I am a current student in Oakland Community College Culinary Arts program and have been gaining industry experience in working in the bakeries of:</p>
               <ul className="py-6 text-2xl">
-                <li className="text-1xl italic">Meijer - Cake Decorator</li>
-                <li className="text-1xl italic">Nino Salvaggio's Bakery - Pastry Associate</li>
-                <li className="text-1xl italic">Orchard Lake Country Club - Pastry Assistant</li>
+                <li className="text-1xl">Meijer - Cake Decorator</li>
+                <li className="text-1xl">Nino Salvaggio's Bakery - Pastry Associate</li>
+                <li className="text-1xl">Orchard Lake COuntry Club - Pastry Assistant</li>
               </ul>
           
             <Link href={'/contact'}>

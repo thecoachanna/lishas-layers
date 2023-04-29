@@ -29,7 +29,7 @@ export default function Home() {
               <ul className="py-6 text-2xl">
                 <li className="text-1xl italic">Meijer - Cake Decorator</li>
                 <li className="text-1xl italic">Nino Salvaggio's Bakery - Pastry Associate</li>
-                <li className="text-1xl italic">Orchard Lake Country Club - Pastry Assistant</li>
+                <li className="text-1xl italic">Orchard Lake COuntry Club - Pastry Assistant</li>
               </ul>
           
             <Link href={'/contact'}>
